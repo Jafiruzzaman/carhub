@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import HeroForm from '@/components/HeroForm'
 import HowItWorks from '@/components/HowItWorks'
+import Services from '@/components/Services'
 import React from 'react'
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
       <Hero/>
       <HeroForm/>
       <HowItWorks/>
+      <Services/>
       <About/>
     </>
   )
