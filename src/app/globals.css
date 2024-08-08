@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body {
+        @apply bg-bgPrimary
+    }
+    .h1{
+        @apply font-extrabold xl:text-8xl  text-4xl text-headingPrimary my-3 xl:my-6
+    }
+    .p{
+        @apply text-sm lg:text-lg xl:text-xl text-textPrimary leading-[1.5] my-3 xl:my-4
+    }
+}
+
