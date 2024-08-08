@@ -11,6 +11,39 @@ cardBackground:"#F8F9FA",
 inputBackground:"#E9ECEF",
 
 
+icons
+
+location
+import { FaLocationDot } from "react-icons/fa6";
+<FaLocationDot />
+
+date
+import { FaCalendarAlt } from "react-icons/fa";
+<FaCalendarAlt />
+
+car ride
+import { FaCarSide } from "react-icons/fa";
+<FaCarSide />
+
+star 
+import { FaStar } from "react-icons/fa6";
+<FaStar />
+
+half star
+import { FaStarHalfAlt } from "react-icons/fa";
+<FaStarHalfAlt />
+
+menu section
+import { RiMenu3Fill } from "react-icons/ri";
+<RiMenu3Fill />
+
+import { IoMdClose } from "react-icons/io";
+<IoMdClose />
+
+subscription
+import { PiPaperPlaneTiltBold } from "react-icons/pi";
+<PiPaperPlaneTiltBold />
+
 fonts
 inter
 
