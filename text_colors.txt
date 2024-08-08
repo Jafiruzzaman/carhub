@@ -1,0 +1,177 @@
+colors
+
+orangePrimary:"#FE5D26",
+orangeSecondary:"",
+spanPrimary:"#FE5D26",
+spanSecondary:"#FFD6C8",
+headingPrimary:"#212529",
+textPrimary:"#6C757D",
+bgPrimary:"#EEEEEE",
+cardBackground:"#F8F9FA",
+inputBackground:"#E9ECEF",
+
+
+fonts
+inter
+
+
+header section
+
+carHub
+ 
+nav -home -ride -services -about -contact
+
+buttons -sign up  -login
+
+header section end
+
+
+hero section start
+
+looking for
+rent a car
+
+Our top priority is ensuring you have a seamless and enjoyable rental experience. Our friendly and knowledgeable staff are always ready to assist you .
+
+location
+select pickUp date
+select Return date
+
+hero section end
+
+how it works section start
+how it works
+rent with 3 easy steps
+
+const HowItWorks = [
+    {
+        icon:,
+        title:"choose a location",
+        description:"Choose a rental car location near your accommodation or major transport hubs like airports and train stations for convenience, ease of access, and a wider selection of vehicles."
+    },
+    {
+        icon:,
+        title:"pick up date",
+        description:"Choose a rental car location near your accommodation or major transport hubs like airports and train stations for convenience, ease of access, and a wider selection of vehicles."
+    },
+    {
+        icon:,
+        title:"Enjoy Ride",
+        description:"Choose a rental car location near your accommodation or major transport hubs like airports and train stations for convenience, ease of access, and a wider selection of vehicles."
+    },
+]
+
+
+how it works section end
+
+
+services section start
+
+button - best services
+
+h2 - explore our top deals
+from top rated dealers
+
+const carsInfoList = [
+    {
+        image:"",
+        name:"BMW 3 Series (330i)",
+        description:"",
+        price:"$41,450",
+        monthlyPrice:"$360",
+        releaseYear:"2022",
+    },
+    {
+        image:"",
+        name:"1990 old vintage car",
+        description:"",
+        price:"$36,000",
+        monthlyPrice:"$360",
+        releaseYear:"1990",
+    },
+    {
+        image:"",
+        name:"2018 honda clivic",
+        description:"",
+        price:"$46,870",
+        monthlyPrice:"$360",
+        releaseYear:"2018",
+    },
+    {
+        image:"",
+        name:"Mercedes-Benz S-Class (S 580)",
+        description:"",
+        price:"$55,360",
+        monthlyPrice:"$360",
+        releaseYear:"2020",
+    },
+    {
+        image:"",
+        name:"Jeep Grand Cherokee (Laredo)",
+        description:"",
+        price:"$37,330",
+        monthlyPrice:"$360",
+        releaseYear:"2021",
+    },
+    {
+        image:"",
+        name:"Range Rover Velar (R-Dynamic S)",
+        description:"",
+        price:"$58,300",
+        monthlyPrice:"$360",
+        releaseYear:"2024",
+    },
+]
+
+services section end
+
+
+about section start
+span about us
+h3 --> best customer experience
+
+h2 --> why should you
+choose us
+p --> Choose a rental car location near your accommodation or major transport hubs like airports and train stations for convenience, ease of access, and a wider selection of vehicles.
+
+about section end
+
+
+review section start
+span --> customer's review 
+h3 --> best customer experience
+
+const reviewList = [
+    {
+        name:"adrian jenny",
+        image:"",
+        reviews:"I recently rented a car from carHub the experience was fantastic! The staff were incredibly friendly and helpful, making the entire process smooth and hassle-free. ",
+        rating:"4.5",
+    },
+        {
+        name:"Robert Henry",
+        image:"",
+        reviews:"My experience with [Store Name] was top-notch! The customer service was outstanding; they made sure I had everything I needed and answered all my questions with patience.",
+        rating:"4.5",
+    },
+    {
+        name:"Leon Thomas",
+        image:"",
+        reviews:"I recently rented a car from carHub the experience was fantastic! The staff were incredibly friendly and helpful, making the entire process smooth and hassle-free. ",
+        rating:"4.5",
+    },
+]
+
+review section end
+
+subscription section start
+h2 --> subscribe to newsletter
+subscription section end
+
+footer section start
+
+@copyright 2024 | all rights reserved
+Made with 💖 Tuhin Ahamed
+
+footer section end
+
