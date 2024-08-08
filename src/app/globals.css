@@ -10,7 +10,7 @@
         @apply font-extrabold xl:text-8xl  text-4xl text-headingPrimary my-3 xl:my-6
     }
     .h2{
-        @apply font-semibold xl:text-5xl capitalize text-3xl text-headingPrimary my-3 xl:my-12
+        @apply font-semibold xl:text-5xl capitalize text-3xl text-headingPrimary my-3 xl:my-6
     }
     .p{
         @apply text-sm lg:text-lg xl:text-xl text-textPrimary leading-[1.5] my-3 xl:my-4
