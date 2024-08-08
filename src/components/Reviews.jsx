@@ -37,7 +37,7 @@ export const Reviews = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-8 gap-4">
         {
           reviewList.map((item, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 hover:-translate-y-2 p-8 flex flex-col gap-4 items-center">
+            <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-lg group-hover:transition duration-200 group-hover:-translate-y-2 p-8 flex flex-col gap-4 items-center">
               <div className="flex items-center justify-center w-full">
                 <Image src={item.image} className='rounded-full w-20 h-20' alt={"user image"}/>
               </div>

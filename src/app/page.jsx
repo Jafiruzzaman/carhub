@@ -5,6 +5,7 @@ import HeroForm from '@/components/HeroForm'
 import HowItWorks from '@/components/HowItWorks'
 import { Reviews } from '@/components/Reviews'
 import Services from '@/components/Services'
+import Subscription from '@/components/Subscription'
 import React from 'react'
 
 const page = () => {
@@ -17,6 +18,7 @@ const page = () => {
       <Services/>
       <About/>
       <Reviews/>
+      <Subscription/>
     </>
   )
 }

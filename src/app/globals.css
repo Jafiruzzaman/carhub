@@ -2,18 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body {
-        @apply bg-bgPrimary
-    }
-    .h1{
-        @apply font-extrabold xl:text-8xl  text-4xl text-headingPrimary my-3 xl:my-6
-    }
-    .h2{
-        @apply font-semibold xl:text-5xl capitalize text-3xl text-headingPrimary my-3 xl:my-6
-    }
-    .p{
-        @apply text-sm lg:text-lg xl:text-xl text-textPrimary leading-[1.5] my-3 xl:my-4
-    }
+@layer base {
+  body {
+    @apply bg-bgPrimary;
+  }
+  .h1 {
+    @apply font-extrabold xl:text-8xl  text-4xl text-headingPrimary my-3 xl:my-6;
+  }
+  .h2 {
+    @apply font-semibold xl:text-5xl capitalize text-3xl text-headingPrimary my-3 xl:my-6;
+  }
+  .p {
+    @apply text-sm lg:text-lg xl:text-xl text-textPrimary leading-[1.5] my-3 xl:my-4;
+  }
 }
 
+.bgGradient {
+  background: linear-gradient(
+    95deg,
+    #ff8c65 0.27%,
+    #f88d3a 51.52%,
+    #ff7b00 99.73%
+  );
+}
