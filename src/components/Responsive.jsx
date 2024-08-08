@@ -29,7 +29,7 @@ const Responsive = ({ menu }) => {
   return (
     <header
       className={`${
-        menu ? "-left-[100%]" : "left-0"
+        menu ? "left-0" : "left-[-100%]"
       } px-3 transition-all duration-300  absolute z-30 top-0 left-0 w-[50%] min-h-[100vh] bottom-0 bg-white md:py-8 py-6 xl:py-16`}
     >
       <div className="flex items-center justify-center flex-col">
@@ -57,7 +57,7 @@ const Responsive = ({ menu }) => {
         </nav>
         {/* socials */}
         <div className="flex gap-3  text-headingPrimary text-sm items-center justify-center bottom-6  absolute capitalize text-center">
-        @copyright 2024 | all rights reserved
+          @copyright 2024 | all rights reserved
         </div>
       </div>
     </header>
