@@ -6,7 +6,8 @@ import playStore from "/public/playstore.svg";
 import appStore from "/public/appstore.svg";
 const Hero = () => {
   return (
-    <section className="container mx-auto xl:my-28 my-14 px-4 xl:px-0 flex items-center justify-between xl:flex-row flex-col text-center xl:text-left gap-16">
+
+    <section className="container mx-auto xl:my-28 my-14 px-4 xl:px-0 flex items-center justify-between  xl:flex-row flex-col text-center xl:text-left gap-16">
       {/* text */}
       <div className="order-2 xl:order-1">
         <h1 className="h1 capitalize xl:max-w-[40rem] text-6xl xl:text-8xl">
