@@ -17,7 +17,7 @@ const About = () => {
         {/* image */}
         <div className="relative flex items-center justify-center">
         <Image src={Blob} width={700} height={700} alt='blob' className='absolute top-0 left-0 rounded-[2rem]'/>
-          <Image src={AboutIMage} alt='car image' className='max-w-[800px] xl:max-w-full z-10'/>
+          <Image src={AboutIMage} alt='car image' className='w-[400px] md:w-[1200px] xl:w-full z-10'/>
         </div>
         {/* text */}
         <div className="xl:text-left md:text-left text-left">

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaCarSide } from "react-icons/fa";
+import Span from './Span';
 const HowItWorksList = [
   {
       icon:<FaLocationDot />,
@@ -23,10 +24,8 @@ const HowItWorks = () => {
   return (
     <section className='container mx-auto my-12'>
       <div className="text-center mx-auto ">
-        <span className="text-lg text-textPrimary capitalize">
-        how it works
-        </span>
-        <h2 className="text-3xl xl:text-4xl capitalize font-semibold xl:font-bold mb-6">
+      <Span text={`how it works`}/>
+        <h2 className="text-3xl xl:text-4xl capitalize font-semibold xl:font-bold m-6">
         rent with 3 easy steps
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-8 xl:my-12 ">
